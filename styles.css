@@ -230,6 +230,7 @@ sup{
     display: block;
     overflow: hidden;
     width: 80%;
+    background-color: #fff;
     margin: auto;
     margin-top: 0;
     margin-bottom: 0;
@@ -240,7 +241,7 @@ sup{
 .img img {
     max-width: 100%;
     opacity: 0;
-    border: 3px solid rgba(20,20,20,0.32);
+    border: 1px solid rgba(20,20,20,0.32);
 }
 
 .img:before {
