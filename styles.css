@@ -220,6 +220,7 @@ sup{
         padding: 0;
     }
 }
+
 .counting-sec{
     margin: auto;
     padding: 1% 0;
@@ -232,11 +233,13 @@ sup{
         margin-top: auto;
     }
 }
+
 .counter-inner-width{
     max-width: 100%;
     margin: auto;
     display: flex;
 }
+
 @media(max-width:500px){
     .counter-inner-width{
         max-width:100%;
@@ -251,6 +254,7 @@ sup{
     color: #000;
     text-transform: uppercase;
 }
+
 @media(max-width:500px){
     .counter-inner-width .col{
         font-size:0.75rem;
@@ -261,7 +265,6 @@ sup{
   font-size: 3rem;
   color: #333;
 }
-
 
 .counter-inner-width .num{
     font-size: 2rem;
@@ -274,13 +277,7 @@ sup{
     margin: 5px 0;
     }   
 }
-
-
-
-
-
-
-/*Button 3D*/
+                                                    /*Button 3D*/
 .boton {
     width: 200px;
     height: 50px;
@@ -436,18 +433,14 @@ sup{
                         0, 0, 0, 1);
 }
 
-    
 .references{
-    
     border:2px solid grey;
     padding: 10px;
 }   
 
 .ref-container{
     margin: auto;
-    
     width:60%;
-    
 }
 
 .ref-container p{
