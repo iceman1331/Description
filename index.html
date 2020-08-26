@@ -34,6 +34,15 @@
     <div class="loader">
     <video autoplay muted loop style="height: auto;" src="Triangles.mp4"></video>
     </div>
+    
+     <!--Loader-->
+        <script type="text/javascript">
+        window.addEventListener("load", function () {
+            const loader = document.querySelector(".loader");
+            loader.className += " hidden"; // new class = "loader hidden"
+        });
+        </script>
+    
 
     <h1 style="text-align: center; font-size:1.5rem;background-color:  #ffdb82;margin:0;">Navbar</h1>
             
@@ -331,13 +340,7 @@
             
         </script>
         
-                                            <!--Loader-->
-        <script type="text/javascript">
-        window.addEventListener("load", function () {
-            const loader = document.querySelector(".loader");
-            loader.className += " hidden"; // new class = "loader hidden"
-        });
-        </script>
+                                           
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="flickity.pkgd.min.js"></script>
