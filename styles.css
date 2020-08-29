@@ -505,7 +505,7 @@ sup{
 }
 
 .button_know{
-    width:14%;
+    width:20%;
     height: 25px;
     font-size: 1rem;
     background-color: inherit;
@@ -519,7 +519,7 @@ sup{
 
 @media(max-width:500px){
     .button_know{
-        width:35%;
+        width:100%;
     }
 }
 
@@ -570,8 +570,8 @@ external_knowmore {
     margin: auto;
     width:80%;
 }
-.collapsible {
-    
+
+.collapsible {    
     background-color: #777;
     color: white;
     display: block;
@@ -590,6 +590,8 @@ external_knowmore {
 .active, .collapsible:hover {
     background-color: #555;
     border-radius: 10px;
+    background-image: url(ref.jpg);
+    background-size: cover;
     border:none;
     width:80%;
     outline: none;
@@ -605,5 +607,17 @@ external_knowmore {
     overflow: hidden;
     border: 1px solid #555;
     transition: max-height 0.3s ease-out;
+    background-color: #f1f1f1;
+}
+
+.content-collapsible-2 {
+    padding: 0 50px;
+    max-height: 0;
+    border-radius: 10px;
+    box-decoration-break: none;
+    overflow: hidden;
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    transition: max-height 0.5s ease-out;
     background-color: #f1f1f1;
 }
