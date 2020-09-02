@@ -60,8 +60,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;    
-    background-color: #00080f;
-    transform-origin: center ;
+    background-color: #2b2828;
+    transform-origin: center;
 }
     
 .loader.hidden {
@@ -229,7 +229,7 @@ sup{
     margin: auto;
     padding: 30px;
     background-size: cover;
-    background-color:rgba(0, 9, 26,0.75);
+   background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
     border-radius: 5px;
     text-align:center;
     color: #000;
