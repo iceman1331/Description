@@ -424,7 +424,7 @@ external_knowmore {
 	transition: 1s;
 }
 
-.active,
+
 .collapsible:hover {
 	background-color: #555;
 	border-radius: 10px;
